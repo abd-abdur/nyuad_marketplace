@@ -1,169 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <title>Reviews</title>
-  <!-- Slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- Bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" type="text/css" href="css/style.css"/>
-  <!-- Responsive style -->
-  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- google icons-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-  <link href="css/all_products.css?v=2" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - NYUAD Marketplace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link href="css/form-style.css" rel="stylesheet" />
 </head>
 <body>
-  <div class="hero_area">
-    <!-- header section starts -->
-    <header class="header_section">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html"><span>NYUAD Marketplace</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""></span>
-        </button>
-        <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
-          <ul class="navbar-nav  ">
-            <li class="nav-item ">
-              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- end header section -->
-  </div>
-  <!-- end hero area -->
-
-  <!-- client section -->
-  <section class="client_section layout_padding">
     <div class="container">
-      <div class="heading_container heading_center">
-        <h2>Submit Review</h2>
-      </div>
-      <div class="container px-0">
-        <!-- Form to submit testimonials -->
-        <form action="review.py" method="post" class="testimonial_form">
-          <div class="form-group">
-            <input type="text" name="customer_name" placeholder="Your Name" required class="form-control">
-          </div>
-          <div class="form-group">
-            <input type="email" name="customer_email" placeholder="Your Email (optional)" class="form-control">
-          </div>
-          <div class="form-group">
-            <textarea name="review_text" placeholder="Your Review" required class="form-control"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit Review</button>
-        </form>     
-        <div class="heading_container heading_center">
-          <h2>Reviews</h2>
-        </div> 
-        <div id="customCarousel2" class="carousel  carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="box">
-                <div class="client_info">
-                  <div class="client_name">
-                    <h5>Raya Tabassum</h5>
-                    <h6>raya.tabassum@nyu.edu</h6>
-                  </div>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </div>
-                <p>It's a great, easy platform to find relevant products and also sell your own!</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="box">
-                <div class="client_info">
-                  <div class="client_name">
-                    <h5>Eric Asare</h5>
-                    <h6>eric.asare@nyu.edu</h6>
-                  </div>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </div>
-                <p>Great initiative!</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="box">
-                <div class="client_info">
-                  <div class="client_name">
-                    <h5>Sanzad Hossain</h5>
-                    <h6>sanzad.hossain@nyu.edu</h6>
-                  </div>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </div>
-                <p>I'd buy products from this platform again!</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel_btn-box">
-            <a class="carousel-control-prev" href="#customCarousel2" role="button" data-slide="prev">
-              <i class="fa fa-angle-left" aria-hidden="true"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#customCarousel2" role="button" data-slide="next">
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    <div>
-  </section>
-  <!-- end client section -->
-  <section class="info_section  layout_padding2-top">
-
-    <div class="social_container">
-        <div class="social_box">
-            <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-            </a>
-        </div>
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <div class="col-md-6 col-lg-3" style="text-align: center;">
-                <p>
-                    Our dedicated team is here to help. Please don't hesitate to reach out to us via our contact channels.
-                </p>
-            </div>
-        </div>
-
-        <!-- footer section -->
-        <footer class=" footer_section">
-            <div class="container">
-                <p>
-                    &copy; <span id="displayYear"></span> All Rights Reserved By
-                    <a href="https://html.design/">NYUAD Marketplace</a>
-                </p>
-            </div>
-</section>
-<script src="js/jquery-3.4.1.min.js "></script>
-<script src="js/bootstrap.js "></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js ">
-</script>
-<script src="js/custom.js "></script>
+        <header class="header_section text-center">
+            <h1>NYUAD Marketplace - Registration</h1>
+            <nav>
+            </nav>
+        </header>
+        <section class="mt-5">
+            <form id="register-form" action="register.py" method="post" class="form-signin">
+                <h2 class="form-signin-heading text-center">Please Register</h2>
+                <input type="text" id="name" name="name" placeholder="Name" required autofocus>
+                <input type="email" id="email" name="email" placeholder="Email Address (must be @nyu.edu)" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+                <button class="btn btn-lg btn-secondary btn-block" type="reset">Reset</button>
+            </form>
+        </section>
+        <footer class="footer_section text-center">
+            <p>© 2024 All Rights Reserved By NYUAD Marketplace</p>
+        </footer>
+    </div>
 </body>
 </html>

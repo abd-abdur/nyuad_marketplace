@@ -35,11 +35,11 @@ if email and password:
         
     elif is_user_registered(email, password):
         print("<h2>Welcome back! You are registered.</h2>")
-        # button with input type to go to homepage
+
         print('<a href="homepage.html"><button>Go to Homepage</button></a>')
     else:
         print("<h2>Sorry, you are not registered.</h2>")
-        # button to register.html
+
         print('<a href="register.html"><button>Register</button></a>')
 else:
     print("<h2>Please provide both email and password.</h2>")
