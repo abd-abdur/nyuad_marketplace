@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+.header-container {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.marketplace-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar {
+    background-color: #f3a2ff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.navbar-nav a:hover {
+    background-color: #db4566;
+    border-radius: 5px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* Align search to the right */
+    padding-bottom: 20px; /* Add some space below the search form */
+}
+
+.search-container form {
+    display: flex;
+    gap: 8px; /* Add a gap between the input and the button */
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #db4566; /* Pink background for submit button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cursor to pointer to indicate clickable */
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.delete-btn {
+    color: #ff0000;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}

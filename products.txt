@@ -1,0 +1,6 @@
+1,Ring,A golden ring,200,0503334440,./images/p1.png
+2,Watch,A classic wrist watch,300,0507899444,./images/p2.png
+3,Teddy Bear,Big Teddy,110,0567599424,./images/p3.png
+4,Apple 2024 MacBook Air ,Available at a lower price from other sellers ,4564.00,05677333331, https://m.media-amazon.com/images/I/712mbn6KKJL._AC_SL1500_.jpg
+5,SAMSUNG Galaxy S24 Ultra,Android Smartphone,5199,2335888888, https://m.media-amazon.com/images/I/71+WncNIt7L._AC_SL1500_.jpg
+6,Men&#x27;s Vintage Button-Down T-Shirt,Hawaiian Shirts Best Sellers,44.10,0553296915, https://i5.walmartimages.com/seo/Men-s-Short-Sleeve-Knit-Button-Down-T-Shirts-Slim-Fit-Vintage-Stripe-Lapel-Sweater-Casual-Business-Dress-Shirt_d7ceb99a-6063-451a-8a38-f1f5b72e28ee.799ce48c86678553b74cd4f11b5bc912.jpeg

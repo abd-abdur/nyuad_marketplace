@@ -1,0 +1,8 @@
+
+j,j@mail.com,ja
+daniel,dno220@gmail.com,dno
+e,e@gmail.com,hello
+Abdur Rahman,ar7165@nyu.edu,Moinul&123
+john,e@gmail.com,hello
+e,e@nyu.edu,hello
+Raya Tabassum,rt2396@nyu.edu,catassum100

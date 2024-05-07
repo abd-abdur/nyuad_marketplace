@@ -1,0 +1,8 @@
+eric,e@gmail.com,2444,Helloword
+Er,e@gmail.com,2333,I love food
+John Doe,e@gmail.com,2335020,I love food
+John Doe,e@gmail.com,2335020,I love food
+Daniel ,dno22@nyu.edu,233501312357,Daniel is working with me
+Daniel,dno22@nyu.edu,23333,I am here with Eric
+Hello world,e@gmail.com,2335020,Hello world - This is me
+John,e@gmail.com,024555999,I miss you guys
